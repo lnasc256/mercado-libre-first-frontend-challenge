@@ -1,0 +1,18 @@
+{
+  "name": "mercado-libre-first-frontend-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lucas Nascimento <lnasc256@live.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^10"
+  },
+  "scripts": {
+    "dev-server": "tsc-watch --onSuccess \"node ./build\""
+  },
+  "dependencies": {
+    "@types/node": "^10",
+    "tsc-watch": "^4.1.0",
+    "typescript": "^3.8.2"
+  }
+}
