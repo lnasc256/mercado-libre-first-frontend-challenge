@@ -8,7 +8,8 @@
     "node": "^10"
   },
   "scripts": {
-    "dev-server": "tsc-watch --onSuccess \"node ./build\""
+    "start": "node ./build",
+    "dev-server": "tsc-watch --onSuccess \"yarn start\""
   },
   "dependencies": {
     "@types/node": "^10",
