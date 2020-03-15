@@ -8,11 +8,12 @@
     "node": "^10"
   },
   "scripts": {
-    "start": "node ./build",
+    "start": "node -r source-map-support/register ./build",
     "dev-server": "tsc-watch --onSuccess \"yarn start\""
   },
   "dependencies": {
     "@types/node": "^10",
+    "source-map-support": "^0.5.16",
     "tsc-watch": "^4.1.0",
     "typescript": "^3.8.2"
   }
