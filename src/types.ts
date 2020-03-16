@@ -6,7 +6,7 @@ export type Controller = (req: express.Request, res: express.Response) => Promis
 
 export type Route = {
   path: string
-  method?: 'get' | 'post',
+  method?: 'get' | 'post' | 'put' | 'patch' | 'delete',
   controller: Controller
 }
 
