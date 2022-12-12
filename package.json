@@ -17,7 +17,7 @@
     "@types/node": "^10",
     "source-map-support": "^0.5.16",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "tsc-watch": "^4.1.0",
     "typescript": "^3.8.2"
   }
